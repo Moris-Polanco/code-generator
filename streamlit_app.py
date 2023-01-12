@@ -21,7 +21,7 @@ def generate_code(prompt):
 st.title("Code Generator")
 st.caption("Por Moris Polanco")
 
-prompt = st.text_input("Enter a prompt:")
+prompt = st.text_input("Enter a prompt in the form 'Write the code for...'")
 
 if st.button("Generate code"):
     result = generate_code(prompt)
